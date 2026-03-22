@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RiverRide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <span>LVL: <b id="level">1</b></span>
+    <span>SCORE: <b id="score">0</b></span>
+    <span>LIVES: <b id="lives">3</b></span>
+    <span>FUEL: <meter id="fuel" min="0" max="100" value="100"></meter></span>
+  </div>
+  <canvas id="canvas"></canvas>
+  <div id="overlay">
+    <h1>RIVER RIDE</h1>
+    <p id="overlay-msg">Navigate the river, avoid the banks!<br>Fly over fuel depots to refuel.</p>
+    <button id="start-btn">START</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

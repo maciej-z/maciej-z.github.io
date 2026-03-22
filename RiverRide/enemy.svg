@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 64" width="48" height="64">
+  <!-- Enemy plane faces downward (toward player) -->
+  <!-- Fuselage -->
+  <ellipse cx="24" cy="32" rx="5" ry="22" fill="#c84040"/>
+  <!-- Nose (bottom — facing player) -->
+  <ellipse cx="24" cy="52" rx="4" ry="7" fill="#e06060"/>
+  <!-- Main wings -->
+  <path d="M24 36 L2 20 L8 18 L24 28 L40 18 L46 20 Z" fill="#a02020"/>
+  <!-- Wing highlights -->
+  <path d="M24 36 L2 20 L6 20 L24 30 L42 20 L46 20 Z" fill="#d04040" opacity="0.5"/>
+  <!-- Tail fins (top — away from player) -->
+  <path d="M24 14 L12 2 L18 2 L24 10 L30 2 L36 2 Z" fill="#a02020"/>
+  <!-- Cockpit -->
+  <ellipse cx="24" cy="42" rx="3.5" ry="5" fill="#1a0000" opacity="0.85"/>
+  <ellipse cx="23" cy="43" rx="1.2" ry="1.8" fill="#f44" opacity="0.4"/>
+  <!-- Engine exhausts (top) -->
+  <rect x="20" y="5" width="3" height="6" rx="1" fill="#f84" opacity="0.8"/>
+  <rect x="25" y="5" width="3" height="6" rx="1" fill="#f84" opacity="0.8"/>
+</svg>
