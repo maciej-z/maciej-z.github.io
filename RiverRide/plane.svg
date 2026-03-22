@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 64" width="48" height="64">
+  <!-- Fuselage -->
+  <ellipse cx="24" cy="32" rx="5" ry="22" fill="#c8e8ff"/>
+  <!-- Nose -->
+  <ellipse cx="24" cy="12" rx="4" ry="7" fill="#e0f4ff"/>
+  <!-- Main wings -->
+  <path d="M24 28 L2 44 L8 46 L24 36 L40 46 L46 44 Z" fill="#5ab4e0"/>
+  <!-- Wing highlights -->
+  <path d="M24 28 L2 44 L6 44 L24 34 L42 44 L46 44 Z" fill="#7ccfff" opacity="0.5"/>
+  <!-- Tail fins -->
+  <path d="M24 50 L12 62 L18 62 L24 54 L30 62 L36 62 Z" fill="#5ab4e0"/>
+  <!-- Cockpit -->
+  <ellipse cx="24" cy="22" rx="3.5" ry="5" fill="#001a33" opacity="0.85"/>
+  <ellipse cx="23" cy="21" rx="1.2" ry="1.8" fill="#4af" opacity="0.4"/>
+  <!-- Engine exhausts -->
+  <rect x="20" y="53" width="3" height="6" rx="1" fill="#f84" opacity="0.8"/>
+  <rect x="25" y="53" width="3" height="6" rx="1" fill="#f84" opacity="0.8"/>
+</svg>
